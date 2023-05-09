@@ -1,0 +1,15 @@
+Last Lecture
+1 Introduction
+
+Today Lecture
+1 Basics of HTML Overview
+ hypertext markup lang 
+ we used tags in html 
+ => predefined tag 
+ 1 paired tags
+	<h1> Welcome to Selenium </h1>
+ 
+ 2 unpaired tags/ self closable tag
+2 DOM
+3 DOM Structure 
+ 
