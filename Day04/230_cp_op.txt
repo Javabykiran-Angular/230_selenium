@@ -1,0 +1,24 @@
+Last Lecture
+1 Continue HTML
+
+Today Lecture
+1 Continue HTML 
+Global Attribute
+	1 style => to make ur html element attractive 
+		inline css 
+	2 name => 
+		to send a data backend developer -=> we have to create a variable for that we use name attribute 
+	3 id 
+		to hold the object /handle of html element 
+	4 title 
+	5 class 
+2 ul tag => it is unorederd list 
+3 ol tag 
+4 css => cascading style sheet 
+  1 inline css 
+  2 internal css 
+  3 external css 
+  
+  css Property 
+	Shorthand property 
+ 
