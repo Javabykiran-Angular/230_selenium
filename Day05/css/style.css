@@ -1,0 +1,24 @@
+div{
+	
+	color:red;
+	font-size:32px;
+}
+
+#myimg{
+	
+	width:250px;
+	height:250px;
+	cursor:pointer;
+}
+
+.myclass{
+	
+	color:blue;
+	font-size:32px;
+	border:2px solid red;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	
+}
+

@@ -1,0 +1,54 @@
+Last Lecture
+1 Continue HTML 
+Global Attribute
+	1 style => to make ur html element attractive 
+		inline css 
+	2 name => 
+		to send a data backend developer -=> we have to create a variable for that we use name attribute 
+	3 id 
+		to hold the object /handle of html element 
+	4 title 
+	5 class 
+2 ul tag => it is unorederd list 
+	<ul>
+		<li> Core java </li>
+	</ul>
+3 ol tag
+	<ol type="A">
+		<li> Core java</li>
+		
+	</ol>
+4 css => cascading style sheet 
+  1 inline css 
+	<div style="color:red;">
+  2 internal css 
+	<head>
+		<style>
+			div{
+				color:red;
+			}
+			
+			#mydiv{
+				border:1px solid red;
+			}
+			
+			.myclass{
+				border:2px dotted green;
+			}
+			
+			
+		</style>
+		<body>
+			<div id="mydiv">
+			<div class="myclass">
+				
+  3 external css 
+  
+  css Property 
+	Shorthand property 
+	
+Today Lecture
+1 External CSS
+
+2 Selenium Setup Download
+ 
