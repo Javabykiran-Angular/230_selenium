@@ -1,0 +1,55 @@
+Last Lecture
+1 External CSS
+	style.css 
+	div{
+		...
+	}
+	
+	#myimg{
+	..
+	}
+	
+	.myclass{
+	....
+	}
+	
+	index.html
+	<html>
+		<head> 
+			<link href="css/style.css" rel="stylesheet">
+		</head>
+	<body>
+	....
+	
+	<img id="myimg">
+	
+	<div class="myclass">
+	....
+	
+	</body>
+
+2 Selenium Setup Download 
+	
+Today Lecture
+1 What is Selenium
+- it is a automation tool/sw
+	- it is open source lib.
+	- it automate ur application=> web application 
+2 Advatanges of selenium
+	1 It is open source 
+	2 it is used for web based application
+	3 It support all platform(os=> windows,linux,mac,suse,ubantu) 
+	4 it required less time to excecute
+	5 all browser support (chrome,firfox,edge,IE,safari,opera)
+	6 selenium support multiple lang.
+3 Disadvtanges of selenium
+	1 we can't test desktop application (word,notepad,ppt,calculator)
+	2 it not test captcha,file download ,image 
+	3 it is not support mobile native application 
+4 Selenium supports
+	1 java
+	2 c#
+	3 python
+	4 ruby
+5 Simple Program
+ 
