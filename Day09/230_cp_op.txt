@@ -1,0 +1,58 @@
+Last Lecture
+1 What is meaning of 
+
+WebDriver driver = new ChromeDriver();
+
+Ans=>
+We are creating ChromeDriver instance/object & storing it in a variable(i.e. reference variable) called driver which is type of WebDriver interface
+
+2 Why we are not writing like that?
+
+ChromeDriver driver = new ChromeDriver();
+
+This is Correct statement, Since chromedriver is a class and we can create object from it.But we don't prefer writing this way because we don't limit to our testing to only chrome browser and we don't want to declare multiple instance of driver.
+
+
+3 Why we write ?
+Webdriver driver =new ChromeDriver();
+
+Ans => In Real time world/industry we work with multiple browser not only single chrome browser, if i want execute for firefox driver so we can work with them so for that we have change to Webdriver driver =new FirefoxDriver();
+
+now Here ChromeDriver class & FirefoxDriver  class has different instance. it has its own extra methods so if we use ChromeDriver driver =new ChromeDriver(); it affects to test firefox browser testing 
+
+so for this all reason we use 
+
+Webdriver driver =new ChromeDriver();
+
+4 WebDriver Methods
+	1 get 
+	2 getTitle
+	3 getPageSource
+	4 getCurrentUrl
+	5 findElement
+	
+	System.setProperty(...);
+	WebDriver driver=new ChromeDriver();
+	driver.get("...");
+	String strTitle=driver.getTitle();
+	
+	String strPageSource=driver.getPageSource();
+	
+	String strurl=driver.getCurrentUrl();
+	
+	WebElement usernameelement= driver.findElement(By.xpath("//*[@id="email"]"))
+	usernameelement.sendKeys("fgdgfdhg");
+	
+	
+	
+Today Lecture
+1 WebElement Methods
+	- sendKeys()
+	- getText()
+2 Automate radio button
+3 Automate DropDown
+4 Handle Alert
+	
+	
+
+ 
