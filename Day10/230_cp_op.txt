@@ -1,0 +1,67 @@
+Last Lecture
+1 WebElement Methods
+	- sendKeys()
+	- getText()
+2 Automate radio button
+3 Automate DropDown
+4 Handle Alert
+
+	WebElement emailel=driver.findElement(By.xpath("..."))
+	emailel.sendKeys("...");
+	driver.findElement(By.xpath("..")).sendKeys("...");
+	
+	...
+	String strDashboard=driver.findElement(By.xpath("")).getText();
+	....
+	....
+	...
+	driver.findElement(By.xpath("....")).click();
+	driver.findElement(By.xpath("....")).click();
+	
+	...
+	
+	WebElement dropElement=driver.findElement(By.xpath("...."));
+	
+	Select select=new Select(dropElement);
+	select.SelectByIndex(1);
+	
+	select.SelectByValue("Hp");
+	
+	select.SelectByVisibleText("Hp");
+	
+	...
+	Alert alert=driver.SwitcgTo().alert();
+	alert.accept();
+	driver.SwitcgTo().defaultContent();
+	
+	/html/body/div/div[1]/section[2]/div/div/div/form/div[3]/div/input
+
+	//*[@id="mobile"]
+	
+	
+Today Lecture
+1 Locators In selenium
+	- we can access webelement 
+	1 Id
+	2 name
+	3 linkText 
+		generally used on <a href="..."> tag 
+		<a href="..">Home</a>
+	4 partialLinkText
+	5 tag name 
+	6 Attributes
+	7 class name => Pending
+	8 Dynamic xpath => Pending
+
+
+
+1 Why we are not writing like that? => namita => freshers
+
+ChromeDriver driver = new ChromeDriver();
+
+2 Why we write ? => Monali punekar => freshers
+Webdriver driver =new ChromeDriver();
+	
+	
+
+ 
