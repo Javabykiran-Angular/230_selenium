@@ -1,0 +1,68 @@
+Last Lecture
+1 Locators In selenium
+	- we can access webelement 
+	1 Id
+	2 name
+	3 linkText 
+		generally used on <a href="..."> tag 
+		<a href="..">Home</a>
+	4 partialLinkText
+	5 tag name 
+	6 Attributes
+	7 class name => Pending
+	8 Dynamic xpath => Pending
+	
+	driver.findElement(By.linkText("Register a new ..")).click();
+	driver.findElement(By.partialLinkText("...")).click();
+	driver.findElement(By.id("name")).sendKeys("...");
+	driver.findElement(By.name("name")).sendKeys("...");
+	
+	List<WebElement> list= driver.findElements(By.tagname("input"))
+	
+	for(int i=0;i<list.size();i++){
+		
+		String strValue=list.get(i).getAttribute("placeholder");
+		
+		if(strValue.compareTo("Email")==0){
+			list.get(i).sendKeys("....")
+		}
+		
+	}
+
+
+
+1 Why we are not writing like that? => namita => freshers
+
+ChromeDriver driver = new ChromeDriver();
+good 
+
+2 Why we write ? => Monali punekar => freshers
+Webdriver driver =new ChromeDriver();
+Good 
+	
+Today Lecture
+1 Locators
+	- class name
+2 Navigation Commands
+3 Handle Windows=> Pending
+
+Webdriver
+	1 getTitle
+	2 getpageSource
+	3 getCurrentUrl
+	4 findElement
+	5 SwitchTo()
+	6 findElements
+	7 navigate
+
+WebElement
+	1 sendKeys()
+	2 click();
+	3 getText();
+	4 getAttribute()
+	
+1 Explain The Webdriver Methods?
+2 What is Selenium? Explain Advantages & disadvantages of selenium
+	
+
+ 
