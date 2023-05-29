@@ -1,0 +1,46 @@
+Last Lecture
+1 Locators
+	- class name
+	
+	linkText,paratialLinltext,id,name,tage name,getAttribute()
+	
+	driver.findElement(By.classname("btn")).click();
+	Alert alert= driver.SwitchTo().alert();
+	alert.accept();
+	driver.SwitchTo().defaultContent();
+	
+	driver.navigate().back();
+	driver.navigate().forward();
+	driver.navigate().refresh();
+	
+	
+2 Navigation Commands
+
+	
+Today Lecture
+1 Handle Windows
+
+
+
+1 Explain The Webdriver Methods? => swapnil sarode => Freshers
+2 What is Selenium? Explain Advantages & disadvantages of selenium
+	-Sudam => Freshers
+
+
+
+Webdriver
+	1 getTitle
+	2 getpageSource
+	3 getCurrentUrl
+	4 findElement
+	5 SwitchTo()
+	6 findElements
+	7 navigate
+
+WebElement
+	1 sendKeys()
+	2 click();
+	3 getText();
+	4 getAttribute()
+
+ 
