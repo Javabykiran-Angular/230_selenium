@@ -1,0 +1,69 @@
+Last Lecture
+1 Handle Windows
+	
+	driver.findElement(By.xpath("..")).click();
+	...
+	
+	
+	ArrayList<String> list=new ArrayList<String>(driver.getWindowhandles());
+	
+	for(int i=0;i<list.size();i++){
+		if(i!=0){
+			driver.SwitchTo().window(list.get(i));
+			driver.close();
+		}
+	}
+	
+	driver.SwitchTo().window(list.get(0));
+	driver.SwitchTo().defaultContent();
+	
+
+2 class config{
+	WebDriver driver;
+	
+	public void driverSetting(){
+		System.setProperty(...);
+		driver =new ChromeDriver();
+		
+		driver.get();
+	}	
+	
+}
+
+class DemoWindow{
+	psvm(){
+		config obj=new config();
+		
+		obj.driverSetting();
+	}
+}
+	
+	
+
+1 Explain The Webdriver Methods? => swapnil sarode => Freshers Good
+2 What is Selenium? Explain Advantages & disadvantages of selenium
+	-Sudam => Freshers Good
+
+	
+Today Lecture
+1 Modify the Code
+
+ 1 Explain the WebElement Methods? => pooja kure => OJT 
+ 2 What all locators available in selenium? => Saylee => freshers
+
+Webdriver
+	1 getTitle
+	2 getpageSource
+	3 getCurrentUrl
+	4 findElement
+	5 SwitchTo()
+	6 findElements
+	7 navigate
+
+WebElement
+	1 sendKeys()
+	2 click();
+	3 getText();
+	4 getAttribute()
+
+ 
