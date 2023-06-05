@@ -1,0 +1,41 @@
+Last Lecture
+1 Modify the Code
+
+public class config{
+	WebDriver driver;
+	
+	public void driverSetting(String url){
+		....
+		driver=new ChromeDriver();
+		driver.get(url);
+	}
+	
+	public WebElement webElementAccess(String xpath){
+		return (driver.findElement(By.xpath(xpath)));
+	}
+	
+	public void login(){
+		WebElement emailElement=webElementAccess("..")
+		emailElement.sendKeys("")
+		....
+		
+	}
+	
+}
+
+class DemoModify extends config{
+	pstvm{
+		DemoModify obj=new DemoModify();
+		obj.driverSetting();
+	}
+}
+
+ 1 Explain the WebElement Methods? => pooja kure => OJT 
+	good 
+ 2 What all locators available in selenium? => Saylee => freshers
+	good
+
+Today Lecture
+1 iFrame
+
+ 
