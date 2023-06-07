@@ -1,0 +1,21 @@
+Last Lecture
+1 Automate Table Data
+
+	List<WebElement> list_row= driver.findElements(By.tagName("tr"));
+	for(int i=1;i<list_row.size(;i++){
+		
+			List<WebElement> list_col=list_row.get(i).findElements(By.tagName("td"))
+		
+		for(int j=0;j<8;j++){
+			Syso("=> "+list_col.get(j).getText()"\t ");
+		}
+		SysoPl("")
+	}
+
+
+
+Today Lecture
+1 Practical
+https://kahoot.com/
+
+ 
