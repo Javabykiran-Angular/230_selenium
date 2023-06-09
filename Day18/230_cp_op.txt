@@ -1,0 +1,54 @@
+Last Lecture
+1 Properties File 
+	- all configuration setting we can placed here 
+	
+	it is key and value format 
+	username=sumit
+	extension is 
+	myfile.properties
+	
+	class config {
+	
+	WebDriver driver;
+	
+	public void driverSetting(){
+	
+	...
+	String str=accessProperty();
+	driver.get(str);
+	}
+	
+	
+	publi String accessProperty(){
+	String strUrl;
+	try{
+		FileInputStream fis=new FileInputStream("...");
+		
+		Properties props=new Properties();
+		props.load(fis);
+		
+		Syso("username "+props.getProperty("username"));
+		....
+		strUrl=props.getProperty("url");
+		
+		
+	}catch(FileNotFound e){
+		e.printStackTrace();
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+	
+		return strUrl;
+		
+	}
+	
+	}
+	
+	
+
+Today Lecture
+1 Access Excel sheet in selenium
+	- it is conatin only test data 
+	
+2 Apache POI Lib
+ 
