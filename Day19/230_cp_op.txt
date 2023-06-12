@@ -1,0 +1,40 @@
+Last Lecture
+1 Access Excel sheet in selenium
+	- it is conatin only test data 
+	
+	FileInputStream fis =new FileInputStream("...");
+	
+	XSSFWorkbook workbook=new XSSFWorkbook(fis);
+	XSSFSheet sheet=workbook.getSheet("Sheet1");
+	XSSFRow row=sheet.getRow(1);
+	XSSFCell cell=row.getCell(0);
+	
+	Syso(cell.getStringValue());
+	int rowCount=sheet.getLastrowNum();
+	
+	for(int i=0;i<=rowCount;i++){
+		XSSFRow=sheet.getRow(i);
+		int colCount=row.getLastCellNum();
+		
+		
+		for(int j=0;j<colCount;j++){
+			XSSFCell cell=row.getCell(j)
+			
+			...
+		}		
+		
+	}	
+	
+2 Apache POI Lib
+	
+
+Today Lecture
+
+1 Synchronization
+2 wait in selenium
+3 implicit wait 
+	- it apply on web application 
+4 explicit wait 
+	- if u apply a particular webElement then we go for explicit wait 
+5 take a screenshot 
+ 
