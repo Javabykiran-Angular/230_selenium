@@ -1,0 +1,43 @@
+Last Lecture
+1 Synchronization
+2 wait in selenium
+3 implicit wait 
+	
+	- it apply on web application 
+	public void accessElement(){
+		//driver.manage().timeout().implicitWait(5,TimeUnit.seconds);
+		
+		driver.SwitchTo().frame("webform");
+		
+		
+		
+	}
+	
+	
+4 explicit wait 
+	- if u apply a particular webElement then we go for explicit wait 
+5 take a screenshot 
+	File source=((TakeScreenShot) driver).getScreenShotAs(OutputType.File);
+	File target=new File("....\\login.png");
+	
+	try{
+	FileHandler.copy(source,target);
+	}catch(FileNotFound e){
+	
+	}catch(Exception e){
+		
+	}
+
+Today Lecture
+1 Dynamic Xpath
+	- it is used to locate ur webelement
+	1 absolute xpath
+		-/ -> used single slash
+		- it starts from its root node or base node => /html 
+		- we can not get shortest path 
+	2 relative xpath
+	 - // => relative path 
+	 - it calculate nearest node to locate ur webElement
+	 - we get shortest path 
+		
+		//tagname[@id='value']
