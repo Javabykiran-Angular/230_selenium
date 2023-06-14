@@ -1,0 +1,22 @@
+Last Lecture
+1 Dynamic Xpath
+	- it is used to locate ur webelement
+	1 absolute xpath
+		-/ -> used single slash
+		- it starts from its root node or base node => /html 
+		- we can not get shortest path 
+	2 relative xpath
+	 - // => relative path 
+	 - it calculate nearest node to locate ur webElement
+	 - we get shortest path 
+		
+		//tagname[@id='value']
+		
+Today Lecture
+1 Continue Dynamic Xpath
+//input[contains(@name,'')]
+//input[starts-with(@name,'')]
+2 following
+3 child 
+(//div[@id='HEADBAND0']//following::li)[2]//a)
+(//div[@id='HEADBAND0']//child::li)[3]//a")
