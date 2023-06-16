@@ -1,0 +1,10 @@
+Last Lecture
+1 TestNg
+	- it is a lib/tool
+	- it is used to execute ur test case 
+2 testng xml file
+
+Today Lecture
+1 TestNg Different Annotations
+
+
