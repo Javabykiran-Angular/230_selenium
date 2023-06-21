@@ -1,0 +1,9 @@
+Last Lecture
+1 Integration
+
+Today Lecture
+1 Test Execution
+2 Hard Assert
+3 soft assert
+
+
