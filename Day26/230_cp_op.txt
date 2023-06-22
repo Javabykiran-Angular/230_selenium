@@ -1,0 +1,18 @@
+Last Lecture
+1 Test Execution
+2 Hard Assert
+3 soft assert
+
+Today Lecture
+1 Data provider
+	
+2 excel sheet accessing
+2 Full integration
+
+  XSSFWorkbook workbook=new WorkBook(fis);
+  XSSFSheet sheet=workbook.getSheet("Sheet1");
+  XSSFRow row=sheet.getRow(1);
+  XSSFCell cell=row.getCell(1);
+  cell.getStringValue();
+
+
